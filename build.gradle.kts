@@ -3,6 +3,7 @@ val kotlin_version: String by project
 val logback_version: String by project
 val dotenv_version: String by project
 
+
 plugins {
     kotlin("jvm") version "2.3.0"
     id("io.ktor.plugin") version "3.3.2"
